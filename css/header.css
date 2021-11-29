@@ -1,6 +1,27 @@
-.nav-main {   
+/*.nav-main {   
   position: fixed;
   top: 0;
   width   : 100%;
   background-color:aquamarine;
+}*/
+:root{
+  --headbg: #444b67;
+  --headtxtcolor: #f7f7eb;
+  --sectionfontsize: 12px;
+  --sectiontitlesize: 14px;
+}
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.head-cv{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--headbg);
+}
+.head-cv h1, .head-cv h4{
+  font-weight: bold;
+  color: var(--headtxtcolor);
 }

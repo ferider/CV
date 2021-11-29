@@ -1,6 +1,12 @@
-.container{
-    width:100%;
+.container-info{
     height: auto;
-    background-color: rgb(20, 20, 19);
-    margin: 50px;
+}
+.container-exp{
+    height: auto;
+}
+.container{
+    
+}
+body{
+background: linear-gradient(to right, #e4e4dd 50%, #f7f7eb 50%);
 }
